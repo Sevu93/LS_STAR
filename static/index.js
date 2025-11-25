@@ -31,10 +31,8 @@ const days = {
   30: { x: 810, y: 0, zoom: 1, text: "1 PÄIVÄÄ ALKUUN\n\n VALMISTAUDU METSÄSTYKSEEN!" },
 };
 
-//const today = new Date().getDate();  // e.g. 1–31
-//const d = days[today];
-
-const d = days[1];
+var today = new Date().getDate();  // e.g. 1–31
+var d = days[today];
 
 if (d) {
   const map = document.getElementById("map");
