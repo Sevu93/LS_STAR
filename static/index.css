@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+/* Fixed view window where you show the zoomed map */
+#view {
+  width: 100vw;
+  height: 60vh;
+  overflow: hidden;
+  position: relative;
+}
+
+/* The map image that will animate */
+#map {
+  width: 1257px;   /* YOUR map's pixel width */
+  height: auto;
+  transform-origin: top left;
+  transition: transform 1s ease;
+  pointer-events: none; /* prevent dragging */
+  user-select: none;
+}
+
+/* Text area */
+#text {
+  padding: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Arvo", serif;
+}
