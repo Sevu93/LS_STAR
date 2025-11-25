@@ -34,7 +34,7 @@ const days = {
 //const today = new Date().getDate();  // e.g. 1–31
 //const d = days[today];
 
-const d = days[25];
+const d = days[1];
 
 if (d) {
   const map = document.getElementById("map");
