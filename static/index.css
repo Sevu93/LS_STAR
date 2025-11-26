@@ -2,6 +2,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: sans-serif;
+  background-color: black;
 }
 
 /* Fixed view window where you show the zoomed map */
@@ -28,4 +29,6 @@ body {
   font-size: 1.2rem;
   font-weight: bold;
   font-family: "Arvo", serif;
+  color:antiquewhite;
+  text-align: center;
 }
