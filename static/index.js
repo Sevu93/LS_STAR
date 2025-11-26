@@ -23,12 +23,12 @@ const days = {
   22: { x: 800, y: 100, zoom: 2.2, text: "Day 3 message!" },
   23: { x: 800, y: 100, zoom: 2.2, text: "Day 3 message!" },
   24: { x: 800, y: 2000, zoom: 2, text: "Day 3 message!" },
-  25: { x: 0, y: 0, zoom: 0.3, text: "6 PÄIVÄÄ ALKUUN" },
-  26: { x: 810, y: 0, zoom: 1, text: "5 PÄIVÄÄ ALKUUN" },
-  27: { x: 810, y: 0, zoom: 1, text: "4 PÄIVÄÄ ALKUUN" },
-  28: { x: 810, y: 0, zoom: 1, text: "3 PÄIVÄÄ ALKUUN" },
-  29: { x: 810, y: 0, zoom: 1, text: "2 PÄIVÄÄ ALKUUN" },
-  30: { x: 810, y: 0, zoom: 1, text: "1 PÄIVÄÄ ALKUUN\n\n VALMISTAUDU METSÄSTYKSEEN!" },
+  25: { x: 810, y: 0, zoom: 1, text: "6 PÄIVÄÄ ALKUUN" },
+  26: { x: 750, y: 325, zoom: 0.95, text: "5 PÄIVÄÄ ALKUUN" },
+  27: { x: 750, y: 325, zoom: 0.95, text: "4 PÄIVÄÄ ALKUUN" },
+  28: { x: 750, y: 325, zoom: 0.95, text: "3 PÄIVÄÄ ALKUUN" },
+  29: { x: 750, y: 325, zoom: 0.95, text: "2 PÄIVÄÄ ALKUUN" },
+  30: { x: 750, y: 325, zoom: 0.95, text: "1 PÄIVÄÄ ALKUUN\n\n VALMISTAUDU METSÄSTYKSEEN!" },
 };
 
 var today = new Date().getDate();  // e.g. 1–31
