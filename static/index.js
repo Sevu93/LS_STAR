@@ -35,8 +35,16 @@ var today = new Date().getDate();  // e.g. 1–31
 
 function alignMap(day){
   const map = document.getElementById("map");
-  map.style.transform = `translate(${day.x}px, ${day.y}px) scale(${day.zoom})`;
-  document.getElementById("text").innerText = day.text;
+  if(day !== 1){
+    map.style.transform = `translate(${(day-1).x}px, ${(day-1).y}px) scale(${day.zoom})`;
+    setTimeout(() => {
+        map.style.transform = `translate(${day.x}px, ${day.y}px) scale(${day.zoom})`;
+        document.getElementById("text").innerText = day.text;
+    }, 2000);
+  } else {
+    map.style.transform = `translate(${day.x}px, ${day.y}px) scale(${day.zoom})`;
+    document.getElementById("text").innerText = day.text;
+  }
 }
 
 alignMap(days[today]);
