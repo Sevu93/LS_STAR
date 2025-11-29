@@ -28,7 +28,7 @@ const days = {
   27: { x: -745, y: 50, zoom: 0.90, text: "4 PÄIVÄÄ ALKUUN" },
   28: { x: -745, y: 50, zoom: 0.90, text: "3 PÄIVÄÄ ALKUUN" },
   29: { x: -745, y: 50, zoom: 0.90, text: "2 PÄIVÄÄ ALKUUN" },
-  30: { x: -745, y: 50, zoom: 0.90, text: "1 PÄIVÄÄ ALKUUN\n\n VALMISTAUDU METSÄSTYKSEEN!" },
+  30: { x: -745, y: 50, zoom: 0.90, text: "1 PÄIVÄ ALKUUN\n\n VALMISTAUDU METSÄSTYKSEEN!" },
 };
 
 var today = new Date().getDate();
